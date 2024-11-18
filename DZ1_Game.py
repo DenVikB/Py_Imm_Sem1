@@ -17,7 +17,7 @@ while variant != '1':
     variant = input()
     match variant:
         case '1':
-            print(" Ура, я угадал!\n С тебя шоколадка и можно выходить :)")
+            print(f"Ура, я угадал с {count}-й попытки!")
             exit()
         case '2':
             start = number
